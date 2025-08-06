@@ -48,6 +48,14 @@ export default function Portfolio() {
         <div className="container flex h-14 items-center">
           <div className="mr-4 flex">
             <Link href="/" className="mr-6 flex items-center space-x-2">
+              <Image
+                src="/phenix.jpg"
+                alt="Phenix Technology Logo"
+                width={32}
+                height={32}
+                className="rounded"
+                priority
+              />
               <span className="font-bold">Phenix Technology</span>
             </Link>
           </div>
@@ -463,9 +471,9 @@ export default function Portfolio() {
                   <Image
                     src="/tern.png"
                     alt="Tern System"
-                    width={1920}
-                    height={1080}
-                    className="rounded-lg object-cover h-64 sm:h-80 md:h-96"
+                    width={400}
+                    height={200}
+                    className="rounded-lg object-cover w-full"
                   />
                 </div>
                 <CardTitle>TERN System</CardTitle>
@@ -496,9 +504,9 @@ export default function Portfolio() {
                 <Image
                   src="/twiport.png"
                   alt="Twiport"
-                  width={1920}
-                  height={1080}
-                  className="rounded-lg object-cover h-64 sm:h-80 md:h-96"
+                  width={400}
+                  height={200}
+                  className="rounded-lg object-cover w-full"
                 />
                 <CardTitle>Twiport</CardTitle>
                 <CardDescription>

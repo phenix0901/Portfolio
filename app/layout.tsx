@@ -6,9 +6,12 @@ import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Alex Johnson - Senior Software Engineer',
-  description: 'Portfolio of Alex Johnson, Senior Software Engineer with 8+ years of experience in full-stack development.',
-    generator: 'v0.dev'
+  title: 'Phenix Technology - Senior Software Engineer',
+  description: 'Portfolio of Phenix Technology, Senior Software Engineer with 8+ years of experience in full-stack development.',
+  generator: 'Phenix Technology',
+  icons: {
+    icon: '/favicon.ico', // or '/favicon.png', '/favicon.svg'
+  },
 }
 
 export default function RootLayout({
